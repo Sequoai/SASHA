@@ -1,7 +1,7 @@
 # 🌲 Sequoai Capital 🌲  
 
 <div align="center">
-  <img src="[./docs/static/img/sequoai_banner.jpg](https://pbs.twimg.com/profile_banners/1858835914950053888/1732016767/1500x500)" alt="Sequoai Banner" width="100%" />
+  <img src="[[./docs/static/img/sequoai_banner.jpg](https://pbs.twimg.com/profile_banners/1858835914950053888/1732016767/1500x500)](https://pbs.twimg.com/profile_banners/1858835914950053888/1732016767/1500x500)" alt="Sequoai Banner" width="100%" />
 </div>
 
 <div align="center">
