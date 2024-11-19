@@ -1,101 +1,57 @@
-# Eliza 🤖
+# 🌲 Sequoai Capital 🌲  
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+  <img src="[./docs/static/img/sequoai_banner.jpg](https://pbs.twimg.com/profile_banners/1858835914950053888/1732016767/1500x500)" alt="Sequoai Banner" width="100%" />
 </div>
 
 <div align="center">
   
-  📖 [Documentation](https://ai16z.github.io/eliza/) | 🎯 [Examples](https://github.com/thejoven/awesome-eliza)
+  📖 [Documentation](https://github.com/SequoaiCapital/docs) | 🎯 [Examples](https://github.com/SequoaiCapital/awesome-sequoai)
   
 </div>
 
-## 🌍 README Translations
+---
+
+## 🌍 README Translations  
 [中文说明](./README_CN.md) | [日本語の説明](./README_JA.md) | [한국어 설명](./README_KOR.md) | [Français](./README_FR.md) | [Português](./README_PTBR.md) | [Türkçe](./README_TR.md) | [Русский](./README_RU.md) | [Español](./README_ES.md) | [Italiano](./README_IT.md)
 
-## ✨ Features
+---
 
--   🛠️ Full-featured Discord, Twitter and Telegram connectors
--   🔗 Support for every model (Llama, Grok, OpenAI, Anthropic, etc.)
--   👥 Multi-agent and room support
--   📚 Easily ingest and interact with your documents
--   💾 Retrievable memory and document store
--   🚀 Highly extensible - create your own actions and clients
--   ☁️ Supports many models (local Llama, OpenAI, Anthropic, Groq, etc.)
--   📦 Just works!
+## ✨ Features  
 
-## 🎯 Use Cases
+-   🛠️ AI-powered meme coin tools and launchpad  
+-   🔗 Solana integration for speed and efficiency  
+-   👥 Multi-chain support for cross-ecosystem growth  
+-   📚 Meme creation powered by AI tools  
+-   💾 On-chain governance and staking for $SEQUOAI holders  
+-   🚀 Extensible toolset for traders and creators  
+-   🌐 Seamless integration with Twitter for viral outreach  
 
--   🤖 Chatbots
--   🕵️ Autonomous Agents
--   📈 Business Process Handling
--   🎮 Video Game NPCs
--   🧠 Trading
+---
 
-## 🚀 Quick Start
+## 🎯 Use Cases  
 
-### Prerequisites
+-   🤖 Launching memecoins with AI  
+-   🌟 Meme creation and trend analysis  
+-   📈 Tokenomics automation for new projects  
+-   🧠 Trading tools for degens  
+-   🎮 Integration into Web3 games  
 
--   [Python 2.7+](https://www.python.org/downloads/)
--   [Node.js 22+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
--   [pnpm](https://pnpm.io/installation)
+---
 
-> **Note for Windows Users:** WSL is required
+## 🚀 Quick Start  
 
-### Edit the .env file
+### Prerequisites  
 
-Copy .env.example to .env and fill in the appropriate values
+-   [Python 3.9+](https://www.python.org/downloads/)  
+-   [Node.js 16+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)  
+-   [pnpm](https://pnpm.io/installation)  
 
-```
+> **Note for Windows Users:** WSL is required for full functionality.  
+
+### Edit the `.env` File  
+
+Copy `.env.example` to `.env` and fill in the appropriate values:  
+
+```bash
 cp .env.example .env
-```
-
-### Automatically Start Eliza
-
-This will run everything to setup the project and start the bot with the default character.
-
-```bash
-sh scripts/start.sh
-```
-
-### Edit the character file
-
-1. Open `packages/agent/src/character.ts` to modify the default character. Uncomment and edit.
-
-2. To load custom characters:
-    - Use `pnpm start --characters="path/to/your/character.json"`
-    - Multiple character files can be loaded simultaneously
-
-### Manually Start Eliza
-
-```bash
-pnpm i
-pnpm build
-pnpm start
-
-# The project iterates fast, sometimes you need to clean the project if you are coming back to the project
-pnpm clean
-```
-
-#### Additional Requirements
-
-You may need to install Sharp. If you see an error when starting up, try installing it with the following command:
-
-```
-pnpm install --include=optional sharp
-```
-
-### Community & contact
-
--   [GitHub Issues](https://github.com/ai16z/eliza/issues). Best for: bugs you encounter using Eliza, and feature proposals.
--   [Discord](https://discord.gg/ai16z). Best for: sharing your applications and hanging out with the community.
-
-## Contributors
-
-<a href="https://github.com/ai16z/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ai16z/eliza" />
-</a>
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=ai16z/eliza&type=Date)](https://star-history.com/#ai16z/eliza&Date)
